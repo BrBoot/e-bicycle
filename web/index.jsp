@@ -1,3 +1,8 @@
+<%-- 
+   
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,11 +15,11 @@
     <body>      
         
         <header class="logo">
-          <a href="index.html">e-Bicycle</a>
+          <a href="index.jsp">e-Bicycle</a>
           <nav>
             <ul class="menu">
-              <li><a href="cadastro.html">Cadastrar</a></li>
-              <li><a href="entrar.html">Entrar</a></li>
+              <li><a href="form_cadastro.jsp">Cadastrar</a></li>
+              <li><a href="form_entrar.jsp">Entrar</a></li>
             </ul>
           </nav>
         </header>

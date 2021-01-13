@@ -1,3 +1,7 @@
+<%@page import="java.sql.Connection"%>
+<%@page import="Controle.AcessoBD"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 
 <html>
@@ -10,15 +14,17 @@
   <body>
     
     <header class="cabecalho">
-      <a href="index.html">e-Bicycle</a>
+      <a href="index.jsp">e-Bicycle</a>
           <nav>
             <ul class="menu">
               <li><a href="index.html">Home</a></li>              
             </ul>
           </nav>
     </header>
+   
     
-    <form action="#" method="POST">
+    
+    <form action="cadastrar.jsp" method="POST">
       <div class="campo">
         <label for="fullname">Nome Completo</label>
         <input type="text" name="fullname" id="fullname" required>
@@ -35,7 +41,7 @@
       </div>
       
       <div class="button">
-        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Cadastrar" name="btn_Cadastrar" id="btn_cadastrar">
       </div>
       
     </form>

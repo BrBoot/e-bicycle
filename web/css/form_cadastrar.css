@@ -1,0 +1,17 @@
+/* */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("../img/sucesso.jpg");
+  background-size: 100%; 
+}
+
+header a {
+  color: #FDF7F7;
+  font-size: 40px;
+  font-family: "Roboto", Arial, sans-serif;
+}

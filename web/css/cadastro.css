@@ -1,14 +1,14 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background-image: url("../img/bg_cadastro.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 ul, li, a {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-decoration: none;
 }

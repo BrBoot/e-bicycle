@@ -1,7 +1,5 @@
 <%-- 
-    Document   : entrar
-    Created on : 11/01/2021, 21:44:11
-    Author     : alexa
+    
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,6 +11,32 @@
     <title>Entrar</title>
   </head>
   <body>
-    <h1>Entrar</h1>
+    
+    <header class="cabecalho">
+      <a href="index.jsp">e-Bicycle</a>
+        <nav>
+          <ul class="menu">        
+            <li><a href="index.jsp">Voltar</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <form id="formu" action="entrar.jsp" method="POST">                
+      <div class="campo">
+        <label for="fullname">E-mail</label>
+        <input type="email" name="email" id="email" required>
+      </div>
+
+      <div class="campo">
+        <label for="email">Senha</label>
+        <input type="password" name="pwd" id="pwd" required>
+      </div>
+
+      <div class="button">
+        <input type="submit" value="Entrar" name="btn_Cadastrar" id="btn_cadastrar">
+      </div>
+       
+    </form>  
+    
   </body>
 </html>

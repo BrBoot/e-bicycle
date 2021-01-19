@@ -17,14 +17,12 @@
       <a href="index.jsp">e-Bicycle</a>
           <nav>
             <ul class="menu">
-              <li><a href="index.html">Home</a></li>              
+              <li><a href="index.jsp">Home</a></li>              
             </ul>
           </nav>
-    </header>
-   
+    </header>  
     
-    
-    <form action="cadastrar.jsp" method="POST">
+    <form action="cadastrar_user.jsp" method="POST">
       <div class="campo">
         <label for="fullname">Nome Completo</label>
         <input type="text" name="fullname" id="fullname" required>

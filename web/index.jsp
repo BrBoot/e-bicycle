@@ -18,7 +18,7 @@
           <a href="index.jsp">e-Bicycle</a>
           <nav>
             <ul class="menu">
-              <li><a href="form_cadastro.jsp">Cadastrar</a></li>
+              <li><a href="form_cadastro_user.jsp">Cadastrar</a></li>
               <li><a href="form_entrar.jsp">Entrar</a></li>
             </ul>
           </nav>

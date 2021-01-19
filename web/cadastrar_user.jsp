@@ -35,7 +35,7 @@ try{
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="css/form_cadastrar.css">
+    <link rel="stylesheet" href="css/form_cadastro.css">
     <title>Entrar</title>
   </head>
   <body>

@@ -1,0 +1,36 @@
+#formu {
+  padding: 150px 5px 0 0;
+}
+
+form .campo { 
+  display: flex;
+  flex-direction: column;
+  padding: 30px 420px 30px 680px;   
+}
+
+.campo label {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 32px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+
+.campo input {
+  border: 0px;
+  width: 420px;
+  height: 32px;
+  border-radius: 6px;    
+}
+
+.button {
+  padding: 30px 420px 30px 680px;
+}
+
+.button input {
+  width: 422px;
+  height: 46px;
+  background: #0C77E4;
+  border-radius: 12px;
+  font-size: 22px;
+  color: #FFFFFF;
+}

@@ -1,6 +1,4 @@
-<%-- 
-   
---%>
+<%-- --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -9,6 +7,7 @@
         <title>E-Bicycle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.svg" type="image/x-svg">
         <link rel="stylesheet" href="css/home.css">
     </head>
     

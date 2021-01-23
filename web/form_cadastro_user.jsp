@@ -10,6 +10,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-svg">
   </head>
   <body>
     

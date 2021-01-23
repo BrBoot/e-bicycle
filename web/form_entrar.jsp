@@ -10,6 +10,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="css/entrar.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-svg">
     <title>Entrar</title>
   </head>
   <body>
@@ -58,7 +61,7 @@
          }
          } else {
           out.println("E-mail ou senha incorretos!");
-       }
+        }
        }
       %>
        

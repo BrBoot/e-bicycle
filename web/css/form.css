@@ -34,4 +34,5 @@ form .campo {
   border-radius: 12px;
   font-size: 22px;
   color: #FFFFFF;
+  cursor: pointer;
 }

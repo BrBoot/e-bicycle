@@ -29,8 +29,9 @@
           <input type="text" name="cor" id="cor" required>
         </div>
         
-          <div class="preco">
-            <h3>Valores do Aluguel<h3>
+        <h3>Valores do Aluguel</h3>
+        
+        <div class="preco">            
           <input type="radio" id="30min" name="preco" value="30 Min: R$ 1">
           <label for="30min">30 Min: R$ 1</label>
           <input type="radio" id="1hr" name="preco" value="1hr: R$ 1,50">

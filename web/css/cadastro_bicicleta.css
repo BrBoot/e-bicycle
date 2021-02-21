@@ -63,14 +63,20 @@ form .campos input {
   background: #FFFFFF; 
 }
 
-main form .preco h3 {
-  padding-top: 30px;  
+main form h3 {
+  padding: 30px 0px;
+  font-size: 28px;
 }
 
 .preco {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.preco label {
+  font-size: 18px;
 }
 
 .button {
@@ -89,6 +95,7 @@ main form .preco h3 {
   color: #FFFFFF;
   background: #0C77E4;
   border-radius: 12px;
+  cursor: pointer;
   
 }
 
@@ -100,4 +107,5 @@ main form .preco h3 {
   color: #FFFFFF;
   background: #9B5555;
   border-radius: 12px;
+  cursor: pointer;
 }

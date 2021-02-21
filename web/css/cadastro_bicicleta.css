@@ -27,7 +27,7 @@ h2, #preco h3 {
   flex-direction: column;
   align-items: center;
 }
-.campos {
+main form .campos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,11 +37,12 @@ h2, #preco h3 {
   font-size: 42px;  
 }
 
-.campos input {
-  border: 0px;
-  width: 420px;
+.campos input {  
+  width: 300px;
   height: 32px;
-  border-radius: 16px;
+  border-radius: 6px;
+  outline: none;
+  background: #FFFFFF
 }
 
 #preco {
@@ -53,5 +54,4 @@ h2, #preco h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }

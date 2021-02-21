@@ -19,7 +19,8 @@ form .campo {
   border: 0px;
   width: 420px;
   height: 32px;
-  border-radius: 6px;    
+  border-radius: 6px;
+  outline: none;
 }
 
 .button {

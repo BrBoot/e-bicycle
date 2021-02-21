@@ -59,10 +59,10 @@
          if (rs.next()){
            response.sendRedirect("form_cadastrar_bicicleta.jsp");
          }
-         } else {
-          out.println("E-mail ou senha incorretos!");
+        } else { 
+         out.println("E-mail ou senha incorreto!");
+         }
         }
-       }
       %>
        
     </form>  
